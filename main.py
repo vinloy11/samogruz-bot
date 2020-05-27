@@ -2,8 +2,8 @@ import requests
 from flask import Flask, render_template, url_for, request, Response
 from flask.views import MethodView
 import os
-from dotenv import load_dotenv
-load_dotenv()
+# from dotenv import load_dotenv
+# load_dotenv()
 
 app = Flask(__name__)
 CHAT_ID = os.environ.get('CHAT_ID')
@@ -60,7 +60,9 @@ class BotApi(MethodView):
         return 'hi telega class'
 
 
-app.add_url_rule('/token/', view_func=BotApi.as_view('bot'))
+# app.add_url_rule('/token/', view_func=BotApi.as_view('bot'))
+app.add_url_rule(f'/{TOKEN}/', view_func=BotApi.as_view('bot'))
 
 if __name__ == '__main__':
     app.run()
+    # app.run(port=5000, debug=True, use_relodaer=True)
