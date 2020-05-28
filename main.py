@@ -65,4 +65,4 @@ app.add_url_rule(f'/{TOKEN}/', view_func=BotApi.as_view('bot'))
 
 if __name__ == '__main__':
     app.run()
-    # app.run(port=5000, debug=True, use_relodaer=True)
+    # app.run(port=5000, debug=True, use_reloader=True)
