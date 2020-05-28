@@ -3,3 +3,26 @@ body {
     background: #000;
 }
 
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 16px;
+}
+
+form > div,
+form > .additional {
+    grid-column: 1 / -1;
+}
+
+.title {
+    padding: 8px;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+.bg-light {
+    background: #f2f2f2!important;
+}
+
