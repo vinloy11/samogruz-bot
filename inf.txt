@@ -1,6 +1,6 @@
 https://shtork-69c19aa8.localhost.run/
 
-https://api.telegram.org/bot1194986262:AAEAqsSlrgANQM0Yrde0mDZ7WQc3TUUiywI/setWebhook?url=https://shtork-69c19aa8.localhost.run/TOKEN/
+https://api.telegram.org/bot1194986262:AAEAqsSlrgANQM0Yrde0mDZ7WQc3TUUiywI/setWebhook?url=https://https://shtork-a8898b0f.localhost.run//TOKEN/
 https://api.telegram.org/bot1194986262:AAEAqsSlrgANQM0Yrde0mDZ7WQc3TUUiywI/setWebhook?url=https://samogruz.herokuapp.com/1194986262:AAEAqsSlrgANQM0Yrde0mDZ7WQc3TUUiywI/
 
 1194986262:AAEAqsSlrgANQM0Yrde0mDZ7WQc3TUUiywI

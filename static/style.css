@@ -9,9 +9,33 @@ form {
     grid-gap: 16px;
 }
 
+.simple-form > .alert,
 form > div,
 form > .additional {
     grid-column: 1 / -1;
+}
+
+form label {
+    white-space: nowrap;
+}
+
+.simple-form > .alert {
+    margin: 0;
+}
+
+.card-img-top {
+    height: 176px;
+    max-height: 176px;
+}
+
+.simple-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+}
+
+.simple-form > .card {
+    cursor: pointer;
 }
 
 .title {
@@ -23,6 +47,34 @@ p {
 }
 
 .bg-light {
-    background: #f2f2f2!important;
+    background: #f2f2f2 !important;
+}
+
+.hidden {
+    display: none;
+}
+
+@media (max-width: 640px) {
+    form > div > input[type="submit"] {
+        width: 100%;
+    }
+
+    .hide-on-mob {
+        display: none;
+    }
+
+    .simple-form {
+        grid-template-columns: 1fr;
+    }
+
+    .time, .weight {
+        /*grid-column: 1 / -1;*/
+    }
+}
+
+@media (min-width: 639px) {
+    .hide-on-desk {
+        display: none;
+    }
 }
 
